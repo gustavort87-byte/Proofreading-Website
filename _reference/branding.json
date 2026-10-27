@@ -1,0 +1,123 @@
+{
+ "colorScheme": "light",
+ "fonts": [
+  {
+   "family": "Lato",
+   "role": "body"
+  },
+  {
+   "family": "Roboto",
+   "role": "heading"
+  }
+ ],
+ "colors": {
+  "primary": "#47ACAD",
+  "secondary": "#2B4763",
+  "accent": "#0D6EFD",
+  "background": "#FFFFFF",
+  "textPrimary": "#212529",
+  "link": "#0D6EFD"
+ },
+ "typography": {
+  "fontFamilies": {
+   "primary": "Lato",
+   "heading": "Roboto"
+  },
+  "fontStacks": {
+   "heading": [
+    "Roboto",
+    "sans-serif"
+   ],
+   "body": [
+    "system-ui",
+    "-apple-system",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "Noto Sans",
+    "Liberation Sans",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji"
+   ],
+   "paragraph": [
+    "Roboto",
+    "sans-serif"
+   ]
+  },
+  "fontSizes": {
+   "h1": "56px",
+   "h2": "40px",
+   "body": "16px"
+  }
+ },
+ "spacing": {
+  "baseUnit": 4,
+  "borderRadius": "4px"
+ },
+ "components": {
+  "input": {
+   "background": "#FFFFFF",
+   "textColor": "#666666",
+   "borderColor": null,
+   "borderRadius": "44px",
+   "borderRadiusCorners": {
+    "topLeft": "44px",
+    "topRight": "44px",
+    "bottomRight": "44px",
+    "bottomLeft": "44px"
+   },
+   "shadow": "none"
+  },
+  "buttonPrimary": {
+   "background": "#2B4763",
+   "textColor": "#F8F9FA",
+   "borderRadius": "800px",
+   "borderRadiusCorners": {
+    "topLeft": "800px",
+    "topRight": "800px",
+    "bottomRight": "800px",
+    "bottomLeft": "800px"
+   },
+   "shadow": "none"
+  },
+  "buttonSecondary": {
+   "background": "#47ACAD",
+   "textColor": "#47ACAD",
+   "borderColor": "#47ACAD",
+   "borderRadius": "800px",
+   "borderRadiusCorners": {
+    "topLeft": "800px",
+    "topRight": "800px",
+    "bottomRight": "800px",
+    "bottomLeft": "800px"
+   },
+   "shadow": "none"
+  }
+ },
+ "images": {
+  "logo": "https://thespanishgroup.org/translations/wp-content/uploads/2024/09/TSG-high-logo-white-300x192.webp",
+  "favicon": null,
+  "ogImage": "https://thespanishgroup.org/wp-content/uploads/2025/08/certified-translation-service-the-spanish-group-2-scaled.jpg",
+  "logoAlt": "The Spanish Group LLC"
+ },
+ "personality": {
+  "tone": "professional",
+  "energy": "medium",
+  "targetAudience": "general consumers"
+ },
+ "designSystem": {
+  "framework": "bootstrap",
+  "componentLibrary": ""
+ },
+ "confidence": {
+  "buttons": 0.35,
+  "colors": 0.7166666666666668,
+  "overall": 0.5333333333333334
+ },
+ "brandName": "Certified Translation Services for Accurate & Fast Results",
+ "logo": "https://thespanishgroup.org/translations/wp-content/uploads/2024/09/TSG-high-logo-white-300x192.webp"
+}
