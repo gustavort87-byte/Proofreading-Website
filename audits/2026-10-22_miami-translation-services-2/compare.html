@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>Compare · 2026-10-22_miami-translation-services-2</title><style>
+body{margin:0;font-family:Lato,system-ui,Arial,sans-serif;background:#1F3D5C;color:#fff}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 16px}.bar a{color:#fff}
+.bar button{border:1px solid #47ACAD;background:transparent;color:#fff;border-radius:999px;padding:6px 12px;cursor:pointer}
+.bar button.on{background:#47ACAD}.panes{display:flex;gap:12px;padding:0 12px 12px;overflow-x:auto}
+.pane{flex:0 0 auto}.pane h2{font-size:14px;margin:4px 0 6px}iframe{border:0;background:#fff;border-radius:6px}
+</style></head><body>
+<div class="bar"><a href="report.html">← Report</a><span>Width:</span>
+<button data-w="375">375</button><button data-w="768">768</button><button data-w="1440" class="on">1440</button>
+<span style="opacity:.8;font-size:13px">Scroll each pane independently. Both panes render the captured HTML, so small styling details (e.g. link underlines) can differ from the live site in the same way on both sides.</span></div>
+<div class="panes"><div class="pane"><h2>Original</h2><iframe src="original.html" title="Original page"></iframe></div>
+<div class="pane"><h2>Corrected</h2><iframe src="proofread.html" title="Corrected page"></iframe></div></div>
+<script>
+const fr=[...document.querySelectorAll('iframe')];
+function set(w){const fit=Math.max(320,(innerWidth-48)/2),z=w>fit?fit/w:1;fr.forEach(f=>{f.style.width=w+'px';f.style.height=((innerHeight-110)/z)+'px';f.parentElement.style.zoom=z});
+document.querySelectorAll('button').forEach(b=>b.classList.toggle('on',+b.dataset.w===w))}
+document.querySelectorAll('button').forEach(b=>b.onclick=()=>set(+b.dataset.w));set(1440);addEventListener('resize',()=>set(+document.querySelector('button.on').dataset.w));
+</script></body></html>
